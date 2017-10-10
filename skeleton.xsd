@@ -8,7 +8,7 @@
               <xs:element name="price">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:short">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -23,7 +23,7 @@
               <xs:element type="xs:string" name="series"/>
               <xs:element type="xs:string" name="version"/>
               <xs:element type="xs:string" name="month"/>
-              <xs:element type="xs:short" name="year"/>
+              <xs:element type="xs:int" name="year"/>
               <xs:element type="xs:string" name="condition"/>
               <xs:element type="xs:string" name="fuel"/>
               <xs:element type="xs:string" name="advertiser"/>
@@ -36,11 +36,19 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element type="xs:short" name="horsePower"/>
+              <xs:element name="horsePower">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
               <xs:element name="displacement">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:short">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -49,7 +57,7 @@
               <xs:element name="autonomy">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:string">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -58,7 +66,7 @@
               <xs:element name="consumption">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:string">
+                    <xs:extension base="xs:float">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -67,7 +75,7 @@
               <xs:element name="CO2Emissions">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:string">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -79,16 +87,16 @@
               <xs:element type="xs:string" name="color"/>
               <xs:element type="xs:string" name="metallic"/>
               <xs:element type="xs:string" name="transmission"/>
-              <xs:element type="xs:string" name="numberOfGears"/>
-              <xs:element type="xs:string" name="numberOfDoors"/>
-              <xs:element type="xs:string" name="numberOfSeats"/>
-              <xs:element type="xs:string" name="numberOfAirbags"/>
+              <xs:element type="xs:int" name="numberOfGears"/>
+              <xs:element type="xs:int" name="numberOfDoors"/>
+              <xs:element type="xs:int" name="numberOfSeats"/>
+              <xs:element type="xs:int" name="numberOfAirbags"/>
               <xs:element type="xs:string" name="vehicleClass"/>
               <xs:element type="xs:string" name="traction"/>
               <xs:element name="iuc">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:string">
+                    <xs:extension base="xs:float">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -96,7 +104,7 @@
               </xs:element>
               <xs:element type="xs:string" name="particlesFilter"/>
               <xs:element type="xs:string" name="inspectionValidUntil"/>
-              <xs:element type="xs:string" name="numberOfRegisters"/>
+              <xs:element type="xs:int" name="numberOfRegisters"/>
               <xs:element type="xs:string" name="origin"/>
               <xs:element type="xs:string" name="reviewBook"/>
               <xs:element type="xs:string" name="secondKey"/>
@@ -104,7 +112,7 @@
               <xs:element name="alloyWheelsSize">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:string">
+                    <xs:extension base="xs:int">
                       <xs:attribute type="xs:string" name="units"/>
                     </xs:extension>
                   </xs:simpleContent>
