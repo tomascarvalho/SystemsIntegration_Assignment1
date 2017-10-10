@@ -1,0 +1,115 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="advertisements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="advert">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="price">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:short">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="url"/>
+              <xs:element type="xs:string" name="brand"/>
+              <xs:element type="xs:string" name="model"/>
+              <xs:element type="xs:string" name="series"/>
+              <xs:element type="xs:string" name="month"/>
+              <xs:element type="xs:short" name="year"/>
+              <xs:element type="xs:string" name="advertiser"/>
+              <xs:element name="mileage">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:short" name="horsePower"/>
+              <xs:element name="displacement">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:short">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="autonomy">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:short">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="c02Emissions">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:short">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="takeBack"/>
+              <xs:element type="xs:string" name="financing"/>
+              <xs:element type="xs:string" name="segment"/>
+              <xs:element type="xs:string" name="color"/>
+              <xs:element type="xs:string" name="metallic"/>
+              <xs:element type="xs:string" name="transmission"/>
+              <xs:element type="xs:byte" name="numberOfGears"/>
+              <xs:element type="xs:byte" name="numberOfDoors"/>
+              <xs:element type="xs:byte" name="numberOfSeats"/>
+              <xs:element type="xs:string" name="vehicleClass"/>
+              <xs:element type="xs:string" name="traction"/>
+              <xs:element name="iuc">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:short">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="particlesFilter"/>
+              <xs:element type="xs:string" name="inspectionValidUntil"/>
+              <xs:element type="xs:byte" name="numberOfRegisters"/>
+              <xs:element type="xs:string" name="origin"/>
+              <xs:element type="xs:string" name="reviewBook"/>
+              <xs:element type="xs:string" name="secondKey"/>
+              <xs:element type="xs:string" name="alloyWheels"/>
+              <xs:element name="alloyWheelsSize">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="units"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="upholstery"/>
+              <xs:element type="xs:string" name="airConditioning"/>
+              <xs:element type="xs:string" name="warranty"/>
+              <xs:element type="xs:string" name="nonSmoker"/>
+              <xs:element name="extras">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="extra" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:long" name="id"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

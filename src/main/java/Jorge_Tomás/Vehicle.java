@@ -8,9 +8,12 @@ public class Vehicle {
     String airConditioning;
     String alloyWheels;
     String alloyWheelsSize;
+    String autonomy;
     String brand;
+    String cabrio;
     String color;
     String condition;
+    String c02Emissions;
     String displacement;
     String financing;
     String fuel;
@@ -24,11 +27,11 @@ public class Vehicle {
     String numberOfGears;
     String numberOfRegistrations;
     String numberOfSeats;
-    String particleFilters;
+    String particlesFilter;
     String price;
     String publisher;
-    String registerMonth;
-    String registerYear;
+    String month;
+    String year;
     String reviewBook;
     String secondKey;
     String segment;
@@ -39,8 +42,8 @@ public class Vehicle {
     String upholstery;
     String url;
     String vehicleClass;
-
-
+    String vin;
+    String waranty;
 
 
 

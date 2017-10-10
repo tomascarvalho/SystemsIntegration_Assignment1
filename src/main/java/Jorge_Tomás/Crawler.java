@@ -75,9 +75,10 @@ public class Crawler {
                 document = Jsoup.connect(advert).get();
                 Elements advertDetails = document.getElementsByClass("offer-params__item");
                 Elements advertExtras = document.getElementsByClass("offer-features__item");
+                String advertID = document.getElementsByClass("offer-meta__value").last().text();
                 String price = document.getElementsByClass("offer-price__number").text();
+                System.out.println(advertID);
                 System.out.println(advert);
-                System.out.println(price);
                 for (Element detail : advertDetails) {
                     Elements children = detail.children();
                     String detailKey = children.first().text();

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<advertisements>
+  <advert id="8001644620">
+    <price units="EUR">31500</price>
+    <url>https://www.standvirtual.com/anuncio/bmw-m5-ID8Jv5ic.html</url>
+    <brand>BMW</brand>
+    <model>M5</model>
+    <series>M Series</series>
+    <month>Maio</month>
+    <year>2005</year>
+    <advertiser>Particular</advertiser>
+    <mileage units="km">179000</mileage>
+    <horsePower>507</horsePower>
+    <displacement units="cm3">4999</displacement>
+    <autonomy units="km">500</autonomy>
+    <c02Emissions units="gm/km">200</c02Emissions>
+    <takeBack>Sim</takeBack>
+    <financing>Sim</financing>
+    <segment>Sedan</segment>
+    <color>Preto</color>
+    <metallic>Sim</metallic>
+    <transmission>Semi-automática</transmission>
+    <numberOfGears>7</numberOfGears>
+    <numberOfDoors>4</numberOfDoors>
+    <numberOfSeats>5</numberOfSeats>
+    <vehicleClass>Classe1</vehicleClass>
+    <traction>Traseira</traction>
+    <iuc units="EUR">450</iuc>
+    <particlesFilter>Sim</particlesFilter>
+    <inspectionValidUntil>18 Maio 2018</inspectionValidUntil>
+    <numberOfRegisters>1</numberOfRegisters>
+    <origin>Nacional</origin>
+    <reviewBook>Sim</reviewBook>
+    <secondKey>Sim</secondKey>
+    <alloyWheels>Sim</alloyWheels>
+    <alloyWheelsSize units='""'>19 Polegadas</alloyWheelsSize>
+    <upholstery>Estofos de Pele</upholstery>
+    <airConditioning>Sim</airConditioning>
+    <warranty>24 Mês(es)</warranty>
+    <nonSmoker>Sim</nonSmoker>
+    <extras>
+      <extra>Faróis Nevoeiro</extra>
+      <extra>Bancos Aquecidos</extra>
+      <extra>Bluetooth</extra>
+    </extras>
+  </advert>
+</advertisements>
