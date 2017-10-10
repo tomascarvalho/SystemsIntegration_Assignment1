@@ -2,14 +2,14 @@
   <xs:element name="advertisements">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="advert">
+        <xs:element name="advert" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="price">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -31,7 +31,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -40,7 +40,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -49,7 +49,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -58,7 +58,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -67,7 +67,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:float">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -76,7 +76,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -97,7 +97,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:float">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -113,7 +113,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
-                      <xs:attribute type="xs:string" name="units"/>
+                      <xs:attribute type="xs:string" name="units" use="optional"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -136,7 +136,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:long" name="id"/>
+            <xs:attribute type="xs:long" name="id" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

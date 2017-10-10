@@ -23,7 +23,6 @@ public class Crawler {
     private List <String> pages;
     private List <String> adverts;
     private List <List<String>> advertDetails;
-    private List <Advertisements> advertisementsList;
     private Advertisements advertisements;
 
 
@@ -31,8 +30,7 @@ public class Crawler {
         pages = new ArrayList <>();
         adverts = new ArrayList <>();
         advertDetails = new ArrayList <>();
-        advertisementsList = new ArrayList<>();
-        Advertisements advertisements = new Advertisements();
+        advertisements = new Advertisements();
     }
 
     // Gets all the 'destaques' web pages
@@ -227,12 +225,14 @@ public class Crawler {
                     }
                 }
 
-                for (Element extras : advertExtras) {
-                    //System.out.println(extras.text());
-                }
+                Advertisements.Advert.Extras extras = new Advertisements.Advert.Extras();
+                for (Element extra : advertExtras) {
+                    extras.getExtra().add(extra.text());
 
-                advertisements.setAdvert(new_advert);
-                advertisementsList.add(advertisements);
+                }
+                new_advert.setExtras(extras);
+
+                advertisements.getAdvert().add(new_advert);
 
             } catch (IOException e) {
                 System.err.println(e.getMessage());
