@@ -83,11 +83,114 @@ public class Crawler {
                     Elements children = detail.children();
                     String detailKey = children.first().text();
                     String detailValue = children.last().text();
-                    System.out.println(detailKey + ": " + detailValue);
+                    //System.out.println(detailKey + ": " + detailValue);
+
+                    if (detailKey.equals("Anunciante")) {
+                        //Set anunciante
+                    } else if (detailKey.equals("Marca")) {
+
+                    } else if (detailKey.equals("Modelo")) {
+
+                    } else if (detailKey.equals("Série")) {
+
+                    } else if (detailKey.equals("Versão")) {
+
+                    } else if (detailKey.equals("Combustível")) {
+
+                    } else if (detailKey.equals("Mês de Registo")) {
+
+                    } else if (detailKey.equals("Ano de Registo")) {
+
+                    } else if (detailKey.equals("Quilómetros")) {
+
+                    } else if (detailKey.equals("Potência")) {
+
+                    } else if (detailKey.equals("Cilindrada")) {
+
+                    } else if (detailKey.equals("VIN")) {
+
+                    } else if (detailKey.equals("Segmento")) {
+
+                    } else if (detailKey.equals("Cor")) {
+
+                    } else if (detailKey.equals("Metalizado")) {
+
+                    } else if (detailKey.equals("Tipo de Caixa")) {
+
+                    } else if (detailKey.equals("Número de Mudanças")) {
+
+                    } else if (detailKey.equals("Nº de portas")) {
+
+                    } else if (detailKey.equals("Lotação")) {
+
+                    } else if (detailKey.equals("Classe do veículo")) {
+
+                    } else if (detailKey.equals("Tracção")) {
+
+                    } else if (detailKey.equals("Autonomia Máxima")) {
+
+                    } else if (detailKey.equals("Emissões CO2")) {
+
+                    } else if (detailKey.equals("IUC")) {
+
+                    } else if (detailKey.equals("Registo(s)")) {
+
+                    } else if (detailKey.equals("Origem")) {
+
+                    } else if (detailKey.equals("Livro de Revisões completo")) {
+
+                    } else if (detailKey.equals("Não fumador")) {
+
+                    } else if (detailKey.equals("2º Chave")) {
+
+                    } else if (detailKey.equals("Tecto de Abrir")) {
+
+                    } else if (detailKey.equals("Medida Jantes de Liga Leve")) {
+
+                    } else if (detailKey.equals("Estofos")) {
+
+                    } else if (detailKey.equals("Ar Condicionado")) {
+
+                    } else if (detailKey.equals("Possibilidade de financiamento")) {
+
+                    } else if (detailKey.equals("Garantia do Stand")) {
+
+                    } else if (detailKey.equals("Capota")) {
+
+                    } else if (detailKey.equals("Aceita retoma")) {
+
+                    } else if (detailKey.equals("Filtro de Particulas")) {
+
+                    } else if (detailKey.equals("Garantia mecanica fabricante até")) {
+
+                    } else if (detailKey.equals("ou até")) {
+
+                    } else if (detailKey.equals("Consumo Combinado")) {
+
+                    } else if (detailKey.equals("Jantes de Liga Leve")) {
+
+                    } else if (detailKey.equals("Numero de Airbags")) {
+
+                    } else if (detailKey.equals("Condição")) {
+
+                    } else if (detailKey.equals("Inspecção válida até")) {
+
+                    } else if (detailKey.equals("Valor Fixo")) {
+
+                    } else if (detailKey.equals("IVA dedutível")) {
+
+                    } else if (detailKey.equals("Matrícula")) {
+
+                    } else if (detailKey.equals("Capota Eléctrica")) {
+
+                    }
+                    else{
+                        System.out.println(detailKey);
+                    }
                 }
 
                 for (Element extras : advertExtras) {
-                    System.out.println(extras.text());
+                    //System.out.println(extras.text());
                 }
             } catch (IOException e) {
                 System.err.println(e.getMessage());
