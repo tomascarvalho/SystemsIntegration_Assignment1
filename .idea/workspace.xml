@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6854f6f-2a40-4319-a702-5ca7c5ca13fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generated/Advertisements.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generated/ObjectFactory.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$AlloyWheelsSize.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$AlloyWheelsSize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Autonomy.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Autonomy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$CO2Emissions.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$CO2Emissions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Consumption.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Consumption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Displacement.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Displacement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Extras.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Extras.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$HorsePower.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$HorsePower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Iuc.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Iuc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Mileage.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Mileage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Price.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Price.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Crawler.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Crawler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.xml" afterPath="$PROJECT_DIR$/file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skeleton.xml" afterPath="$PROJECT_DIR$/skeleton.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skeleton.xsd" afterPath="$PROJECT_DIR$/skeleton.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java" afterPath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/ObjectFactory.java" />
-    </list>
+    <list default="true" id="c6854f6f-2a40-4319-a702-5ca7c5ca13fb" name="Default" comment="" />
     <ignored path="IS_Assignment1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -759,7 +736,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901296" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
