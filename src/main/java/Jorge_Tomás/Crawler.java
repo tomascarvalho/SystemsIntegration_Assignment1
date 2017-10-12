@@ -18,6 +18,14 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
+import javax.xml.XMLConstants;
+import javax.xml.transform.Source;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.*;
+import java.net.URL;
+import org.xml.sax.SAXException;
+
+
 
 public class Crawler {
     private List <String> pages;
@@ -243,7 +251,7 @@ public class Crawler {
     public void marshallList() {
         try {
 
-            File file = new File("file.xml");
+            File file = new File("adverts.xml");
             JAXBContext jaxbContext = JAXBContext.newInstance(Advertisements.class);
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
@@ -258,12 +266,31 @@ public class Crawler {
         }
     }
 
+    public static void xmlIsValid(String xml, String xsd)
+    {
+        File schemaFile = new File(xsd);
+        Source xmlFile = new StreamSource(new File(xml));
+        SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+        try {
+            Schema schema = schemaFactory.newSchema(schemaFile);
+            Validator validator = schema.newValidator();
+            validator.validate(xmlFile);
+            System.out.println(xmlFile.getSystemId() + " is valid");
+        } catch (SAXException e) {
+            System.out.println(xmlFile.getSystemId() + " is NOT valid reason:" + e);
+        } catch (IOException e) {}
+
+    }
+
     public static void main(String[] args) {
         Crawler crawler = new Crawler();
         crawler.getWebPages("https://www.standvirtual.com/destaques/");
         crawler.getAdvertLink();
         crawler.getAdvertDetails();
         crawler.marshallList();
+        xmlIsValid("adverts.xml", "skeleton.xsd");
+
+
         System.out.println("Crawler Terminated");
     }
 }

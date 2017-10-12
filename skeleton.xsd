@@ -5,7 +5,7 @@
         <xs:element name="advert" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="price">
+              <xs:element name="price" maxOccurs="1" minOccurs="1">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -14,20 +14,20 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element type="xs:string" name="fixedValue"/>
-              <xs:element type="xs:string" name="deductibleVAT"/>
-              <xs:element type="xs:string" name="plateNumber"/>
-              <xs:element type="xs:string" name="url"/>
-              <xs:element type="xs:string" name="brand"/>
-              <xs:element type="xs:string" name="model"/>
-              <xs:element type="xs:string" name="series"/>
-              <xs:element type="xs:string" name="version"/>
-              <xs:element type="xs:string" name="month"/>
-              <xs:element type="xs:int" name="year"/>
-              <xs:element type="xs:string" name="condition"/>
-              <xs:element type="xs:string" name="fuel"/>
-              <xs:element type="xs:string" name="advertiser"/>
-              <xs:element name="mileage">
+              <xs:element type="xs:string" name="fixedValue" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="deductibleVAT" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="plateNumber" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="url" maxOccurs="1" minOccurs="1"/>
+              <xs:element type="xs:string" name="brand" maxOccurs="1" minOccurs="1"/>
+              <xs:element type="xs:string" name="model" maxOccurs="1" minOccurs="1"/>
+              <xs:element type="xs:string" name="series" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="version" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="month" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:int" name="year" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="condition" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="fuel" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="advertiser" maxOccurs="1" minOccurs="0"/>
+              <xs:element name="mileage" maxOccurs="1" minOccurs="1">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -36,7 +36,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="horsePower">
+              <xs:element name="horsePower" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -45,7 +45,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="displacement">
+              <xs:element name="displacement" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -54,7 +54,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="autonomy">
+              <xs:element name="autonomy" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -63,7 +63,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="consumption">
+              <xs:element name="consumption" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:float">
@@ -72,7 +72,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="CO2Emissions">
+              <xs:element name="CO2Emissions" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -81,19 +81,19 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element type="xs:string" name="takeBack"/>
-              <xs:element type="xs:string" name="financing"/>
-              <xs:element type="xs:string" name="segment"/>
-              <xs:element type="xs:string" name="color"/>
-              <xs:element type="xs:string" name="metallic"/>
-              <xs:element type="xs:string" name="transmission"/>
-              <xs:element type="xs:int" name="numberOfGears"/>
-              <xs:element type="xs:int" name="numberOfDoors"/>
-              <xs:element type="xs:int" name="numberOfSeats"/>
-              <xs:element type="xs:int" name="numberOfAirbags"/>
-              <xs:element type="xs:string" name="vehicleClass"/>
-              <xs:element type="xs:string" name="traction"/>
-              <xs:element name="iuc">
+              <xs:element type="xs:string" name="takeBack" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="financing" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="segment" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="color" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="metallic" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="transmission" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:int" name="numberOfGears" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:int" name="numberOfDoors" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:int" name="numberOfSeats" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:int" name="numberOfAirbags" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="vehicleClass" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="traction" maxOccurs="1" minOccurs="0"/>
+              <xs:element name="iuc" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:float">
@@ -102,14 +102,14 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element type="xs:string" name="particlesFilter"/>
-              <xs:element type="xs:string" name="inspectionValidUntil"/>
-              <xs:element type="xs:int" name="numberOfRegisters"/>
-              <xs:element type="xs:string" name="origin"/>
-              <xs:element type="xs:string" name="reviewBook"/>
-              <xs:element type="xs:string" name="secondKey"/>
-              <xs:element type="xs:string" name="alloyWheels"/>
-              <xs:element name="alloyWheelsSize">
+              <xs:element type="xs:string" name="particlesFilter" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="inspectionValidUntil" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:int" name="numberOfRegisters" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="origin" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="reviewBook" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="secondKey" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="alloyWheels" maxOccurs="1" minOccurs="0"/>
+              <xs:element name="alloyWheelsSize" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">
@@ -118,16 +118,16 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element type="xs:string" name="upholstery"/>
-              <xs:element type="xs:string" name="airConditioning"/>
-              <xs:element type="xs:string" name="warranty"/>
-              <xs:element type="xs:string" name="mechanicalWarranty"/>
-              <xs:element type="xs:string" name="orUntil"/>
-              <xs:element type="xs:string" name="roofTop"/>
-              <xs:element type="xs:string" name="electricRoofTop"/>
-              <xs:element type="xs:string" name="nonSmoker"/>
-              <xs:element type="xs:string" name="cabrio"/>
-              <xs:element type="xs:string" name="vin"/>
+              <xs:element type="xs:string" name="upholstery" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="airConditioning" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="warranty" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="mechanicalWarranty" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="orUntil" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="roofTop" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="electricRoofTop" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="nonSmoker" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="cabrio" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string" name="vin" maxOccurs="1" minOccurs="0"/>
               <xs:element name="extras">
                 <xs:complexType>
                   <xs:sequence>
