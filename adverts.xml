@@ -1,85 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <advertisements>
-    <advert id="8001428216">
-        <price units="€">26900</price>
-        <deductibleVAT>Sim</deductibleVAT>
-        <url>https://www.standvirtual.com/anuncio/mini-cooper-d-ID8JwaZO.html</url>
-        <brand>MINI</brand>
-        <model>Cooper</model>
-        <version>D</version>
-        <month>Março</month>
-        <year>2017</year>
-        <condition>Usados</condition>
-        <fuel>Diesel</fuel>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">1259</mileage>
-        <horsePower units="cv">116</horsePower>
-        <displacement units="cm3">14963</displacement>
-        <consumption units="l/100km">3.901</consumption>
-        <takeBack>Sim</takeBack>
-        <segment>Utilitários / Sedan</segment>
-        <color>Branco</color>
-        <metallic>Sim</metallic>
-        <transmission>Tracção dianteira</transmission>
-        <numberOfGears>6</numberOfGears>
-        <numberOfDoors>5</numberOfDoors>
-        <numberOfSeats>5</numberOfSeats>
-        <vehicleClass>Classe 1</vehicleClass>
-        <inspectionValidUntil>1 Março 2021</inspectionValidUntil>
-        <numberOfRegisters>1</numberOfRegisters>
-        <reviewBook>Sim</reviewBook>
-        <secondKey>Sim</secondKey>
-        <airConditioning>AC Automático</airConditioning>
-        <mechanicalWarranty>28 Fevereiro 2019</mechanicalWarranty>
-        <nonSmoker>Sim</nonSmoker>
-        <extras>
-            <extra>Acabamentos em alumínio</extra>
-            <extra>Farois de nevoeiro</extra>
-            <extra>Faróis com Sensor Luminosidade</extra>
-            <extra>Faróis Diurnos</extra>
-            <extra>Faróis Dianteiros LED</extra>
-            <extra>Faróis Reguláveis em altura</extra>
-            <extra>Faróis Traseiros LED</extra>
-            <extra>Retrovisores com Regulação Eléctrica</extra>
-            <extra>Vidros Eléctricos diant. + trase.</extra>
-            <extra>Vidros Escurecidos</extra>
-            <extra>Preto</extra>
-            <extra>Apoio de Braço</extra>
-            <extra>Bancos Traseiros c/ config. Individual</extra>
-            <extra>Encostos de Cabeça Traseiros</extra>
-            <extra>Bancos com Apoio Lombar</extra>
-            <extra>Volante em Pele</extra>
-            <extra>Volante Regulável em Altura</extra>
-            <extra>Volante com Comandos Rádio</extra>
-            <extra>Volante Regulável em profundidade</extra>
-            <extra>Volante Multifunções</extra>
-            <extra>Airbags laterais</extra>
-            <extra>Airbag do Condutor</extra>
-            <extra>Airbag de Passageiros</extra>
-            <extra>ISOFIX</extra>
-            <extra>Direcção assistida</extra>
-            <extra>Sistema de Ajuda ao arranque em inclinação</extra>
-            <extra>Start &amp; Stop</extra>
-            <extra>Fecho Central c/ Comando</extra>
-            <extra>Imobilizador</extra>
-            <extra>ESP Controle Electrónico de Estabilidade</extra>
-            <extra>Chave inteligente</extra>
-            <extra>Sensores de Chuva</extra>
-            <extra>ABS</extra>
-            <extra>Fecho automático das Portas em andamento</extra>
-            <extra>Controle de pressão dos Pneus</extra>
-            <extra>Sensores de Estacionamento</extra>
-            <extra>Entrada USB</extra>
-            <extra>Encosto de Cabeça com ecrã</extra>
-            <extra>Sistema de navegação / GPS</extra>
-            <extra>Computador de Bordo</extra>
-            <extra>Ecrã consola central</extra>
-            <extra>Leitor DVD</extra>
-            <extra>Cruise Control</extra>
-            <extra>Bluetooth</extra>
-            <extra>Radio com CD</extra>
-        </extras>
-    </advert>
     <advert id="8001368080">
         <price units="€">13500</price>
         <url>https://www.standvirtual.com/anuncio/peugeot-807-2-0-hdi-136-cv-navteq-ID8JuWlS.html</url>
@@ -4634,41 +4554,6 @@
             <extra>Computador de Bordo</extra>
             <extra>Cruise Control</extra>
             <extra>Radio com CD</extra>
-        </extras>
-    </advert>
-    <advert id="8001749675">
-        <price units="€">24300</price>
-        <fixedValue>Sim</fixedValue>
-        <plateNumber>72QJ71</plateNumber>
-        <url>https://www.standvirtual.com/anuncio/seat-leon-2-0-tdi-fr-s-s-ID8JvvCD.html</url>
-        <brand>Seat</brand>
-        <model>Leon</model>
-        <version>2.0 TDi FR S/S</version>
-        <month>Setembro</month>
-        <year>2015</year>
-        <condition>Usados</condition>
-        <fuel>Diesel</fuel>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">50149</mileage>
-        <horsePower units="cv">184</horsePower>
-        <displacement units="cm3">19683</displacement>
-        <takeBack>Sim</takeBack>
-        <segment>Utilitários / Sedan</segment>
-        <color>Branco</color>
-        <transmission>Manual</transmission>
-        <numberOfDoors>2</numberOfDoors>
-        <airConditioning>AC Automático</airConditioning>
-        <warranty>36 Mês(es)</warranty>
-        <extras>
-            <extra>Faróis Xenon</extra>
-            <extra>Outra</extra>
-            <extra>ABS</extra>
-            <extra>Direcção assistida</extra>
-            <extra>Sensores de Estacionamento</extra>
-            <extra>Computador de Bordo</extra>
-            <extra>Radio com CD</extra>
-            <extra>Cruise Control</extra>
-            <extra>Sistema de navegação / GPS</extra>
         </extras>
     </advert>
     <advert id="8001603465">
