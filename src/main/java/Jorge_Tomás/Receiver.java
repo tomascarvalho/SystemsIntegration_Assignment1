@@ -38,36 +38,35 @@ public class Receiver implements MessageListener{
     public String receive() {
         try (JMSContext cntxt = this.cf.createContext("joao", "br1o+sa*")) {
             //set the client ID
-            cntxt.setClientID("client1");
+            cntxt.setClientID("carsKeeper");
             //create topic consumer
-            JMSConsumer cons = cntxt.createConsumer(d);
+            JMSConsumer receiveRequestQueue = cntxt.createConsumer(d);
             //create durable consumer
-            JMSConsumer consumer2 = cntxt.createDurableConsumer(this.tpc,"client1");
+            JMSConsumer carsKeeperConsumer = cntxt.createDurableConsumer(this.tpc,"carsKeeper");
             //set mesasge listener
-            consumer2.setMessageListener(this);
+            receiveRequestQueue.setMessageListener(this);
 
-            return cons.receiveBody(String.class);
+            return carsKeeperConsumer.receiveBody(String.class);
         }
     }
 
         public static void main(String[] args) throws NamingException {
-            Receiver receiver = new Receiver();
-            receiver.receive();
+            while (true) {
+                Receiver receiver = new Receiver();
+                String xmlString = receiver.receive();
+                System.out.println(xmlString);
+                Advertisements advertisements = new Advertisements();
+                if (isValidXML(xmlString, "skeleton.xsd")) {
+                    advertisements = unmarshalXML(xmlString);
+                }
+            }
     }
 
 
     @Override
     public void onMessage(Message msg) {
-        try {
-            String xmlString = (((TextMessage) msg).getText());
-            System.out.println(xmlString);
-            Advertisements advertisements = new Advertisements();
-            if (isValidXML(xmlString, "skeleton.xsd")) {
-                advertisements = unmarshalXML(xmlString);
-            }
-        } catch (JMSException e) {
-            e.printStackTrace();
-        }
+        System.out.println("Received from request queue.");
+        //TODO Process request
     }
 
     public static boolean isValidXML(String xml, String xsd)

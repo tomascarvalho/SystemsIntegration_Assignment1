@@ -8,17 +8,21 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.xml.sax.SAXException;
 
+import java.io.BufferedReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.io.IOException;
 import java.io.File;
+import java.io.FileReader;
 import java.io.StringWriter;
 
 import javax.naming.NamingException;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import javax.xml.parsers.ParserConfigurationException;
 
 
 public class Crawler {
@@ -267,22 +271,44 @@ public class Crawler {
 
 
     public static void main(String[] args) {
-        Crawler crawler = new Crawler();
-        crawler.getWebPages("https://www.standvirtual.com/destaques/");
-        crawler.getAdvertLink();
-        crawler.getAdvertDetails();
-        String xmlString = crawler.marshallList();
+        try {
+            File file = new File("adverts.xml");
+            if (file.exists() && !file.isDirectory()) {
+                BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+                String line;
+                StringBuilder xmlString = new StringBuilder();
+
+                while((line=bufferedReader.readLine()) != null){
+                    xmlString.append(line.trim());
+                }
+                sendString((xmlString.toString()));
+
+            } else {
+                Crawler crawler = new Crawler();
+                crawler.getWebPages("https://www.standvirtual.com/destaques/");
+                crawler.getAdvertLink();
+                crawler.getAdvertDetails();
+                String xmlString = crawler.marshallList();
+                sendString(xmlString);
+            }
+        } catch (IOException io) {
+            System.err.println(io);
+        }
+
+        System.out.println("Crawler Terminated");
+    }
+
+    public static void sendString(String xmlString) {
         try {
             Sender sender = new Sender();
             sender.send(xmlString);
             System.out.println("Message sent");
+            File file = new File("adverts.xml");
+            if (file.exists() && !file.isDirectory()) {
+                file.delete();
+            }
         } catch(NamingException ne) {
             System.out.println("Error sending XML. XML saved as adverts.xml");
         }
-
-
-
-
-        System.out.println("Crawler Terminated");
     }
 }
