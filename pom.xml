@@ -40,5 +40,47 @@
       <artifactId>jsoup</artifactId>
       <version>1.10.3</version>
     </dependency>
+
+    <!-- BOM with wildfly JEE7 implementations -->
+    <dependency>
+      <groupId>org.wildfly</groupId>
+      <artifactId>wildfly-messaging-activemq</artifactId>
+      <version>11.0.0.CR1</version>
+    </dependency>
+
+    <!-- JMS dependency we need from the BOM -->
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>7.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.wildfly</groupId>
+      <artifactId>wildfly-jms-client-bom</artifactId>
+      <version>11.0.0.CR1</version>
+      <type>pom</type>
+    </dependency>
+
+    <!-- JNDI dependency we need from the BOM -->
+    <!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-ejb-client-bom -->
+    <dependency>
+      <groupId>org.wildfly</groupId>
+      <artifactId>wildfly-ejb-client-bom</artifactId>
+
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.6.4</version>
+    </dependency>
+
   </dependencies>
 </project>
