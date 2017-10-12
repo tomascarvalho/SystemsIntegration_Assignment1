@@ -36,19 +36,6 @@ public class Sender {
             //send message to topic
             prod.send(tpc,msg);
         }
-
-
-
-
     }
-
-    public static void main(String[] args) throws NamingException {
-
-        //sending a testing message to the topic
-        //need to convert xml to bytes to send to the topic
-
-        new Sender().send("Teste de topicos!");
-    }
-
 
 }

@@ -13,18 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.io.IOException;
 import java.io.File;
+import java.io.StringWriter;
 
+import javax.naming.NamingException;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-
-import javax.xml.XMLConstants;
-import javax.xml.transform.Source;
-import javax.xml.transform.stream.StreamSource;
-import javax.xml.validation.*;
-import java.net.URL;
-import org.xml.sax.SAXException;
-
 
 
 public class Crawler {
@@ -248,47 +242,45 @@ public class Crawler {
         });
     }
 
-    public void marshallList() {
+    public String marshallList() {
+        String xmlToString = new String();
         try {
-
             File file = new File("adverts.xml");
             JAXBContext jaxbContext = JAXBContext.newInstance(Advertisements.class);
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+            StringWriter stringWriter = new StringWriter();
 
             // output pretty printed
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
             jaxbMarshaller.marshal(advertisements, file);
+            jaxbMarshaller.marshal(advertisements, stringWriter);
             jaxbMarshaller.marshal(advertisements, System.out);
 
+            xmlToString = stringWriter.toString();
+            return xmlToString;
         } catch (JAXBException e) {
             e.printStackTrace();
         }
+        return xmlToString;
     }
 
-    public static void xmlIsValid(String xml, String xsd)
-    {
-        File schemaFile = new File(xsd);
-        Source xmlFile = new StreamSource(new File(xml));
-        SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
-        try {
-            Schema schema = schemaFactory.newSchema(schemaFile);
-            Validator validator = schema.newValidator();
-            validator.validate(xmlFile);
-            System.out.println(xmlFile.getSystemId() + " is valid");
-        } catch (SAXException e) {
-            System.out.println(xmlFile.getSystemId() + " is NOT valid reason:" + e);
-        } catch (IOException e) {}
-
-    }
 
     public static void main(String[] args) {
         Crawler crawler = new Crawler();
         crawler.getWebPages("https://www.standvirtual.com/destaques/");
         crawler.getAdvertLink();
         crawler.getAdvertDetails();
-        crawler.marshallList();
-        xmlIsValid("adverts.xml", "skeleton.xsd");
+        String xmlString = crawler.marshallList();
+        try {
+            Sender sender = new Sender();
+            sender.send(xmlString);
+            System.out.println("Message sent");
+        } catch(NamingException ne) {
+            System.out.println("Error sending XML. XML saved as adverts.xml");
+        }
+
+
 
 
         System.out.println("Crawler Terminated");

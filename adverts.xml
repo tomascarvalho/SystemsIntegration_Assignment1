@@ -4556,6 +4556,41 @@
             <extra>Radio com CD</extra>
         </extras>
     </advert>
+    <advert id="8001749675">
+        <price units="€">24300</price>
+        <fixedValue>Sim</fixedValue>
+        <plateNumber>72QJ71</plateNumber>
+        <url>https://www.standvirtual.com/anuncio/seat-leon-2-0-tdi-fr-s-s-ID8JvvCD.html</url>
+        <brand>Seat</brand>
+        <model>Leon</model>
+        <version>2.0 TDi FR S/S</version>
+        <month>Setembro</month>
+        <year>2015</year>
+        <condition>Usados</condition>
+        <fuel>Diesel</fuel>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">50149</mileage>
+        <horsePower units="cv">184</horsePower>
+        <displacement units="cm3">19683</displacement>
+        <takeBack>Sim</takeBack>
+        <segment>Utilitários / Sedan</segment>
+        <color>Branco</color>
+        <transmission>Manual</transmission>
+        <numberOfDoors>2</numberOfDoors>
+        <airConditioning>AC Automático</airConditioning>
+        <warranty>36 Mês(es)</warranty>
+        <extras>
+            <extra>Faróis Xenon</extra>
+            <extra>Outra</extra>
+            <extra>ABS</extra>
+            <extra>Direcção assistida</extra>
+            <extra>Sensores de Estacionamento</extra>
+            <extra>Computador de Bordo</extra>
+            <extra>Radio com CD</extra>
+            <extra>Cruise Control</extra>
+            <extra>Sistema de navegação / GPS</extra>
+        </extras>
+    </advert>
     <advert id="8001603465">
         <price units="€">31900</price>
         <fixedValue>Sim</fixedValue>
@@ -4794,6 +4829,83 @@
             <extra>Cruise Control</extra>
         </extras>
     </advert>
+    <advert id="8001724860">
+        <price units="€">36100</price>
+        <fixedValue>Sim</fixedValue>
+        <plateNumber>64OD08</plateNumber>
+        <url>https://www.standvirtual.com/anuncio/mercedes-benz-cla-220-cdi-aut-ID8Jvqao.html</url>
+        <brand>Mercedes-Benz</brand>
+        <model>CLA 220</model>
+        <series>Classe CLA</series>
+        <version>CDi Aut.</version>
+        <month>Novembro</month>
+        <year>2013</year>
+        <condition>Usados</condition>
+        <fuel>Diesel</fuel>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">115034</mileage>
+        <horsePower units="cv">170</horsePower>
+        <displacement units="cm3">21433</displacement>
+        <takeBack>Sim</takeBack>
+        <segment>Utilitários / Sedan</segment>
+        <color>Cinzento</color>
+        <metallic>Sim</metallic>
+        <transmission>Automática</transmission>
+        <numberOfDoors>4</numberOfDoors>
+        <origin>Nacional</origin>
+        <upholstery>Estofos de Pele</upholstery>
+        <airConditioning>AC Automático</airConditioning>
+        <warranty>36 Mês(es)</warranty>
+        <cabrio>Tecto de Abrir Manual</cabrio>
+        <extras>
+            <extra>Faróis Xenon</extra>
+            <extra>Vidros Eléctricos diant. + trase.</extra>
+            <extra>Outra</extra>
+            <extra>ABS</extra>
+            <extra>Direcção assistida</extra>
+            <extra>Sensores de Estacionamento</extra>
+            <extra>Computador de Bordo</extra>
+            <extra>Radio com CD</extra>
+            <extra>Cruise Control</extra>
+            <extra>Sistema de navegação / GPS</extra>
+        </extras>
+    </advert>
+    <advert id="8001216936">
+        <price units="€">32500</price>
+        <fixedValue>Sim</fixedValue>
+        <plateNumber>34NC95</plateNumber>
+        <url>https://www.standvirtual.com/anuncio/mercedes-benz-c-350-cdi-avantgarde-be-ID8Jui24.html</url>
+        <brand>Mercedes-Benz</brand>
+        <model>C 350</model>
+        <series>Classe C</series>
+        <version>CDi Avantgarde BE</version>
+        <month>Julho</month>
+        <year>2012</year>
+        <condition>Usados</condition>
+        <fuel>Diesel</fuel>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">69813</mileage>
+        <horsePower units="cv">265</horsePower>
+        <displacement units="cm3">29873</displacement>
+        <takeBack>Sim</takeBack>
+        <segment>Utilitários / Sedan</segment>
+        <color>Preto</color>
+        <transmission>Automática</transmission>
+        <numberOfDoors>4</numberOfDoors>
+        <airConditioning>AC Automático</airConditioning>
+        <warranty>36 Mês(es)</warranty>
+        <extras>
+            <extra>Faróis Xenon</extra>
+            <extra>Vidros Eléctricos diant. + trase.</extra>
+            <extra>Outra</extra>
+            <extra>ABS</extra>
+            <extra>Direcção assistida</extra>
+            <extra>Sensores de Estacionamento</extra>
+            <extra>Computador de Bordo</extra>
+            <extra>Sistema de navegação / GPS</extra>
+            <extra>Radio com CD</extra>
+        </extras>
+    </advert>
     <advert id="8000569160">
         <price units="€">28900</price>
         <url>https://www.standvirtual.com/anuncio/bmw-320-efficientdynamics-44000km-ID8Jrzv4.html</url>
@@ -4868,6 +4980,43 @@
             <extra>Rádio com CD / MP3</extra>
             <extra>Kit Mãos Livres</extra>
             <extra>Sistema de navegação / GPS</extra>
+        </extras>
+    </advert>
+    <advert id="8001757035">
+        <price units="€">41400</price>
+        <fixedValue>Sim</fixedValue>
+        <plateNumber>73OR09</plateNumber>
+        <url>https://www.standvirtual.com/anuncio/bmw-525-d-auto-ID8Jvyxl.html</url>
+        <brand>BMW</brand>
+        <model>525</model>
+        <series>Série 5</series>
+        <version>d Auto</version>
+        <month>Maio</month>
+        <year>2014</year>
+        <condition>Usados</condition>
+        <fuel>Diesel</fuel>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">74246</mileage>
+        <horsePower units="cv">218</horsePower>
+        <displacement units="cm3">19953</displacement>
+        <takeBack>Sim</takeBack>
+        <segment>Carrinha / Combi</segment>
+        <color>Preto</color>
+        <transmission>Automática</transmission>
+        <numberOfDoors>4</numberOfDoors>
+        <upholstery>Estofos de Pele</upholstery>
+        <airConditioning>AC Automático</airConditioning>
+        <warranty>36 Mês(es)</warranty>
+        <cabrio>Tecto de Abrir Manual</cabrio>
+        <extras>
+            <extra>Vidros Eléctricos diant. + trase.</extra>
+            <extra>Outra</extra>
+            <extra>ABS</extra>
+            <extra>Direcção assistida</extra>
+            <extra>Sensores de Estacionamento</extra>
+            <extra>Computador de Bordo</extra>
+            <extra>Sistema de navegação / GPS</extra>
+            <extra>Radio com CD</extra>
         </extras>
     </advert>
     <advert id="8001722185">
