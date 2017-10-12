@@ -6,7 +6,7 @@
 //
 
 
-package Jorge_Tomás;
+package generated;
 
 import java.util.ArrayList;
 import java.util.List;

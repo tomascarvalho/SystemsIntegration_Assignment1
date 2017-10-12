@@ -6,7 +6,7 @@
 //
 
 
-package Jorge_Tomás;
+package generated;
 
 import javax.xml.bind.annotation.XmlRegistry;
 

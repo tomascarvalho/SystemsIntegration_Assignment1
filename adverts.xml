@@ -24,7 +24,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <inspectionValidUntil>1 Março 2021</inspectionValidUntil>
         <numberOfRegisters>1</numberOfRegisters>
@@ -98,11 +97,6 @@
         <segment>SUV / Monovolume</segment>
         <color>Prateado</color>
         <metallic>Sim</metallic>
-        <numberOfGears>0</numberOfGears>
-        <numberOfDoors>0</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <extras/>
     </advert>
     <advert id="8001706805">
@@ -121,11 +115,6 @@
         <displacement units="cm3">4493</displacement>
         <segment>Enduro / Todo terreno</segment>
         <color>Verde</color>
-        <numberOfGears>0</numberOfGears>
-        <numberOfDoors>0</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <extras/>
     </advert>
     <advert id="8001357442">
@@ -148,10 +137,8 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Tracção traseira</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <iuc units="€">680.0</iuc>
         <numberOfRegisters>1</numberOfRegisters>
@@ -219,7 +206,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>10</numberOfAirbags>
@@ -295,7 +281,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -359,7 +344,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -419,7 +403,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -486,7 +469,6 @@
         <color>Branco</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -550,10 +532,8 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
@@ -614,7 +594,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>7</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -678,7 +657,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -748,7 +726,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -814,7 +791,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -871,7 +847,6 @@
         <segment>Cabrios / Roadster</segment>
         <color>Vermelho</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -927,11 +902,6 @@
         <segment>Carrinha / Combi</segment>
         <color>Preto</color>
         <metallic>Sim</metallic>
-        <numberOfGears>0</numberOfGears>
-        <numberOfDoors>0</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <extras/>
     </advert>
     <advert id="8001369472">
@@ -954,8 +924,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>2</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <alloyWheels>Sim</alloyWheels>
         <upholstery>Estofos de Pele</upholstery>
         <roofTop>Capota de Lona</roofTop>
@@ -987,7 +955,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -1059,10 +1026,8 @@
         <segment>Citadinos</segment>
         <color>Branco</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <reviewBook>Sim</reviewBook>
         <alloyWheels>Sim</alloyWheels>
@@ -1123,7 +1088,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>7</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -1192,7 +1156,6 @@
         <segment>Carrinha / Combi</segment>
         <color>Cinzento</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -1254,11 +1217,9 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <airConditioning>AC Independente</airConditioning>
@@ -1306,7 +1267,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>2</numberOfSeats>
         <numberOfAirbags>4</numberOfAirbags>
@@ -1366,7 +1326,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -1425,10 +1384,8 @@
         <segment>Utilitários / Sedan</segment>
         <color>Preto</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
@@ -1486,7 +1443,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -1543,11 +1499,7 @@
         <color>Vermelho</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
-        <numberOfDoors>0</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <alloyWheels>Sim</alloyWheels>
         <upholstery>Estofos de Pele</upholstery>
         <airConditioning>AC Automático</airConditioning>
@@ -1607,7 +1559,6 @@
         <color>Verde</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -1665,10 +1616,8 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>7</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
@@ -1726,7 +1675,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -1813,7 +1761,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -1896,10 +1843,8 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Importado</origin>
         <reviewBook>Sim</reviewBook>
@@ -1939,10 +1884,8 @@
         <segment>Utilitários / Sedan</segment>
         <color>Vermelho</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Importado</origin>
         <reviewBook>Sim</reviewBook>
@@ -1973,7 +1916,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -2061,12 +2003,10 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>2</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <upholstery>Estofos de Tecido</upholstery>
         <airConditioning>AC Manual</airConditioning>
         <roofTop>Capota Rígida</roofTop>
@@ -2102,7 +2042,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -2170,10 +2109,8 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <mechanicalWarranty>21 Fevereiro 2018</mechanicalWarranty>
         <orUntil>200 km</orUntil>
@@ -2199,10 +2136,8 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Importado</origin>
         <reviewBook>Sim</reviewBook>
@@ -2233,7 +2168,6 @@
         <color>Azul</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -2293,7 +2227,6 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
@@ -2357,11 +2290,9 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <alloyWheels>Sim</alloyWheels>
@@ -2431,7 +2362,6 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
@@ -2501,7 +2431,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
@@ -2577,9 +2506,7 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <reviewBook>Sim</reviewBook>
         <secondKey>Sim</secondKey>
         <alloyWheels>Sim</alloyWheels>
@@ -2640,7 +2567,6 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
@@ -2692,7 +2618,6 @@
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <alloyWheels>Sim</alloyWheels>
@@ -2752,7 +2677,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>9</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <numberOfRegisters>1</numberOfRegisters>
         <origin>Nacional</origin>
@@ -2803,11 +2727,9 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <alloyWheels>Sim</alloyWheels>
@@ -2875,7 +2797,6 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <numberOfRegisters>1</numberOfRegisters>
         <reviewBook>Sim</reviewBook>
@@ -2941,7 +2862,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <inspectionValidUntil>1 Agosto 2018</inspectionValidUntil>
         <numberOfRegisters>2</numberOfRegisters>
@@ -3015,7 +2935,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -3078,7 +2997,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -3131,11 +3049,9 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <alloyWheels>Sim</alloyWheels>
@@ -3184,7 +3100,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -3244,7 +3159,6 @@
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <airConditioning>AC Automático</airConditioning>
@@ -3300,11 +3214,9 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <airConditioning>AC Automático</airConditioning>
@@ -3367,7 +3279,6 @@
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <secondKey>Sim</secondKey>
@@ -3426,11 +3337,9 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <alloyWheels>alloy_wheels</alloyWheels>
@@ -3487,7 +3396,6 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -3568,10 +3476,8 @@
         <color>Preto</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <inspectionValidUntil>1 Março 2018</inspectionValidUntil>
         <numberOfRegisters>2</numberOfRegisters>
         <origin>Nacional</origin>
@@ -3606,11 +3512,7 @@
         <segment>Citadinos</segment>
         <color>Verde</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
-        <numberOfDoors>0</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
         <numberOfAirbags>10</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <alloyWheels>alloy_wheels</alloyWheels>
         <upholstery>Estofos de Pele</upholstery>
         <airConditioning>AC Automático</airConditioning>
@@ -3669,7 +3571,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <particlesFilter>Sim</particlesFilter>
         <inspectionValidUntil>1 Fevereiro 2019</inspectionValidUntil>
@@ -3743,10 +3644,7 @@
         <transmission>Tracção dianteira</transmission>
         <numberOfGears>7</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <reviewBook>Sim</reviewBook>
         <secondKey>Sim</secondKey>
         <upholstery>Estofos de Tecido</upholstery>
@@ -3824,7 +3722,6 @@
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <secondKey>Sim</secondKey>
         <alloyWheels>Sim</alloyWheels>
@@ -3894,11 +3791,6 @@
         <segment>Utilitários / Sedan</segment>
         <color>Cinzento</color>
         <metallic>Sim</metallic>
-        <numberOfGears>0</numberOfGears>
-        <numberOfDoors>0</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <vin>WBA3D11090P700920</vin>
         <extras/>
     </advert>
@@ -3928,7 +3820,6 @@
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <secondKey>Sim</secondKey>
         <alloyWheels>Sim</alloyWheels>
@@ -4013,7 +3904,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <numberOfRegisters>1</numberOfRegisters>
         <reviewBook>Sim</reviewBook>
         <secondKey>Sim</secondKey>
@@ -4079,7 +3969,6 @@
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <reviewBook>Sim</reviewBook>
         <secondKey>Sim</secondKey>
@@ -4150,7 +4039,6 @@
         <color>Branco</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -4215,7 +4103,6 @@
         <color>Branco</color>
         <metallic>Sim</metallic>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -4283,7 +4170,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
@@ -4346,11 +4232,8 @@
         <color>Verde</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <warranty>12 Mês(es)</warranty>
@@ -4400,12 +4283,10 @@
         <segment>SUV / Monovolume</segment>
         <color>Preto</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
         <particlesFilter>Sim</particlesFilter>
-        <numberOfRegisters>0</numberOfRegisters>
         <alloyWheels>alloy_wheels</alloyWheels>
         <airConditioning>AC Automático</airConditioning>
         <extras>
@@ -4453,7 +4334,6 @@
         <color>Vermelho</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -4517,11 +4397,9 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <upholstery>Estofos de Pele</upholstery>
@@ -4565,13 +4443,11 @@
         <segment>Utilitários / Sedan</segment>
         <color>Cinzento</color>
         <transmission>Tracção traseira</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>8</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <particlesFilter>Sim</particlesFilter>
-        <numberOfRegisters>0</numberOfRegisters>
         <alloyWheels>Sim</alloyWheels>
         <upholstery>Estofos de Pele</upholstery>
         <airConditioning>AC Independente</airConditioning>
@@ -4647,11 +4523,7 @@
         <segment>Carrinha / Combi</segment>
         <color>Preto</color>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <airConditioning>AC Automático</airConditioning>
         <warranty>36 Mês(es)</warranty>
         <extras>
@@ -4685,11 +4557,7 @@
         <segment>Carrinha / Combi</segment>
         <color>Cinzento</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <airConditioning>AC Automático</airConditioning>
         <warranty>36 Mês(es)</warranty>
         <extras>
@@ -4724,11 +4592,7 @@
         <segment>Utilitários / Sedan</segment>
         <color>Branco</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <warranty>36 Mês(es)</warranty>
         <extras>
             <extra>Vidros Eléctricos diant. + trase.</extra>
@@ -4758,11 +4622,7 @@
         <segment>Utilitários / Sedan</segment>
         <color>Branco</color>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <airConditioning>AC Automático</airConditioning>
         <warranty>36 Mês(es)</warranty>
         <extras>
@@ -4796,11 +4656,7 @@
         <segment>Utilitários / Sedan</segment>
         <color>Branco</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <airConditioning>AC Automático</airConditioning>
         <warranty>36 Mês(es)</warranty>
         <extras>
@@ -4836,11 +4692,7 @@
         <segment>Carrinha / Combi</segment>
         <color>Outra</color>
         <transmission>Automática</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <upholstery>Estofos de Pele</upholstery>
         <airConditioning>AC Automático</airConditioning>
         <warranty>36 Mês(es)</warranty>
@@ -4873,11 +4725,7 @@
         <segment>Utilitários / Sedan</segment>
         <color>Cinzento</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
-        <numberOfSeats>0</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <warranty>36 Mês(es)</warranty>
         <extras>
             <extra>Vidros Eléctricos diant. + trase.</extra>
@@ -4909,8 +4757,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <airConditioning>AC Automático</airConditioning>
@@ -4956,8 +4802,6 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <warranty>24 Mês(es)</warranty>
         <extras>
@@ -4992,8 +4836,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>7</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <airConditioning>AC Automático</airConditioning>
@@ -5040,8 +4882,6 @@
         <numberOfGears>6</numberOfGears>
         <numberOfDoors>3</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <alloyWheels>Sim</alloyWheels>
         <airConditioning>AC Automático</airConditioning>
@@ -5097,7 +4937,6 @@
         <numberOfAirbags>10</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <particlesFilter>Sim</particlesFilter>
-        <numberOfRegisters>0</numberOfRegisters>
         <reviewBook>Sim</reviewBook>
         <secondKey>Sim</secondKey>
         <alloyWheels>Sim</alloyWheels>
@@ -5167,9 +5006,7 @@
         <numberOfGears>5</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>2</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
-        <numberOfRegisters>0</numberOfRegisters>
         <origin>Nacional</origin>
         <upholstery>Estofos de Pele</upholstery>
         <warranty>24 Mês(es)</warranty>
@@ -5200,7 +5037,6 @@
         <numberOfGears>7</numberOfGears>
         <numberOfDoors>4</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <iuc units="€">210.0</iuc>
         <numberOfRegisters>1</numberOfRegisters>
@@ -5279,7 +5115,6 @@
         <numberOfGears>7</numberOfGears>
         <numberOfDoors>2</numberOfDoors>
         <numberOfSeats>4</numberOfSeats>
-        <numberOfAirbags>0</numberOfAirbags>
         <vehicleClass>Classe 1</vehicleClass>
         <iuc units="€">712.0</iuc>
         <numberOfRegisters>2</numberOfRegisters>
@@ -5361,7 +5196,6 @@
         <color>Cinzento</color>
         <metallic>Sim</metallic>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
@@ -5419,7 +5253,6 @@
         <segment>Citadinos</segment>
         <color>Branco</color>
         <transmission>Manual</transmission>
-        <numberOfGears>0</numberOfGears>
         <numberOfDoors>5</numberOfDoors>
         <numberOfSeats>5</numberOfSeats>
         <numberOfAirbags>6</numberOfAirbags>
