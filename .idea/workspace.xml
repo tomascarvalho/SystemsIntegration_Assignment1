@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6854f6f-2a40-4319-a702-5ca7c5ca13fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$AlloyWheelsSize.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$AlloyWheelsSize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Autonomy.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Autonomy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$CO2Emissions.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$CO2Emissions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Consumption.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Consumption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Displacement.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Displacement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Extras.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Extras.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$HorsePower.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$HorsePower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Iuc.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Iuc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Mileage.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Mileage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Price.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert$Price.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Advertisements$Advert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Crawler.class" afterPath="$PROJECT_DIR$/target/classes/Jorge_Tomás/Crawler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adverts.xml" afterPath="$PROJECT_DIR$/adverts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java" afterPath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/main/java/Jorge_Tomás/ObjectFactory.java" />
     </list>
     <ignored path="IS_Assignment1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+            <state relative-caret-position="555">
+              <caret line="104" column="64" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Advertisements.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Advertisements.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="2261" column="77" selection-start-line="2261" selection-start-column="72" selection-end-line="2261" selection-end-column="77" />
+            <state relative-caret-position="198">
+              <caret line="864" column="29" selection-start-line="864" selection-start-column="19" selection-end-line="864" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#26344#26345#0" expanded="true" />
@@ -249,9 +234,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advert.java" />
         <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java" />
         <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java" />
       </list>
     </option>
   </component>
@@ -853,6 +838,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="104" column="64" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/ObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -863,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Advertisements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="2261" column="77" selection-start-line="2261" selection-start-column="72" selection-end-line="2261" selection-end-column="77" />
+        <state relative-caret-position="198">
+          <caret line="864" column="29" selection-start-line="864" selection-start-column="19" selection-end-line="864" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#26344#26345#0" expanded="true" />
@@ -1009,16 +1004,6 @@
             <element signature="e#46433#46434#0" expanded="true" />
             <element signature="e#46680#46681#0" expanded="true" />
             <element signature="e#46728#46729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Jorge_Tomás/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
