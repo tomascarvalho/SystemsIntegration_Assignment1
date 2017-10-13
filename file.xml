@@ -1,81 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <advertisements>
-    <advert id="8000057138">
-        <price units="€">12990</price>
-        <fixedValue>Sim</fixedValue>
-        <url>https://www.standvirtual.com/anuncio/fiat-500c-1-3-16v-multijet-lounge-ID8JpqjE.html</url>
-        <brand>Fiat</brand>
-        <model>500C</model>
-        <version>1.3 16V Multijet Lounge</version>
-        <month>Novembro</month>
-        <year>2013</year>
-        <condition>Usados</condition>
-        <fuel>Diesel</fuel>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">39084</mileage>
-        <horsePower units="cv">95</horsePower>
-        <displacement units="cm3">13003</displacement>
-        <takeBack>Sim</takeBack>
-        <segment>Cabrios / Roadster</segment>
-        <color>Vermelho</color>
-        <transmission>Manual</transmission>
-        <numberOfDoors>3</numberOfDoors>
-        <numberOfSeats>4</numberOfSeats>
-        <numberOfAirbags>6</numberOfAirbags>
-        <numberOfRegisters>1</numberOfRegisters>
-        <origin>Nacional</origin>
-        <reviewBook>Sim</reviewBook>
-        <alloyWheels>Sim</alloyWheels>
-        <airConditioning>AC Automático</airConditioning>
-        <warranty>12 Mês(es)</warranty>
-        <nonSmoker>Sim</nonSmoker>
-        <cabrio>Tecto de Abrir Panorâmico</cabrio>
-        <extras>
-            <extra>Farois de nevoeiro</extra>
-            <extra>Faróis Reguláveis em altura</extra>
-            <extra>Retrovisores com Regulação Eléctrica</extra>
-            <extra>Vidros Eléctricos dianteiros</extra>
-            <extra>Bege</extra>
-            <extra>Encostos de Cabeça Traseiros</extra>
-            <extra>Bancos com Apoio Lombar</extra>
-            <extra>Volante Multifunções</extra>
-            <extra>Volante em Pele</extra>
-            <extra>Volante Regulável em Altura</extra>
-            <extra>Direcção assistida</extra>
-            <extra>Sistema de Ajuda ao arranque em inclinação</extra>
-            <extra>Fecho Central c/ Comando</extra>
-            <extra>Fecho automático das Portas em andamento</extra>
-            <extra>Imobilizador</extra>
-            <extra>ABS</extra>
-            <extra>Radio com CD</extra>
-            <extra>Bluetooth</extra>
-            <extra>Computador de Bordo</extra>
-            <extra>Entrada USB</extra>
-        </extras>
-    </advert>
-    <advert id="8001283260">
-        <price units="€">34850</price>
-        <fixedValue>Sim</fixedValue>
-        <url>https://www.standvirtual.com/anuncio/bmw-320-touring-190-cv-auto-ID8JuzhO.html</url>
-        <brand>BMW</brand>
-        <model>320</model>
-        <series>Série 3</series>
-        <version>touring 190 CV Auto</version>
-        <month>Junho</month>
-        <year>2016</year>
-        <condition>Usados</condition>
-        <fuel>Diesel</fuel>
-        <advertiser>Profissional</advertiser>
-        <mileage units="km">41000</mileage>
-        <horsePower units="cv">190</horsePower>
-        <displacement units="cm3">20003</displacement>
-        <takeBack>Sim</takeBack>
-        <financing>Sim</financing>
-        <segment>Carrinha / Combi</segment>
-        <color>Preto</color>
-        <metallic>Sim</metallic>
-        <extras/>
-    </advert>
     <advert id="8001369472">
         <price units="€">35000</price>
         <url>https://www.standvirtual.com/anuncio/honda-s2000-ID8JuWIk.html</url>
@@ -4985,6 +4909,91 @@
         <roofTop>Capota de Lona</roofTop>
         <extras>
             <extra>Preto</extra>
+        </extras>
+    </advert>
+    <advert id="8001451860">
+        <price units="€">25950</price>
+        <url>https://www.standvirtual.com/anuncio/peugeot-508-rxh-hybrid-4-ID8Jwh9a.html</url>
+        <brand>Peugeot</brand>
+        <model>508 RXH</model>
+        <version>HYBRID 4</version>
+        <month>Novembro</month>
+        <year>2014</year>
+        <condition>Usados</condition>
+        <fuel>Híbrido (Diesel)</fuel>
+        <advertiser>Profissional</advertiser>
+        <mileage units="km">99850</mileage>
+        <horsePower units="cv">200</horsePower>
+        <displacement units="cm3">19973</displacement>
+        <CO2Emissions units="g/km">104</CO2Emissions>
+        <takeBack>Sim</takeBack>
+        <segment>Carrinha / Combi</segment>
+        <color>Branco</color>
+        <metallic>Sim</metallic>
+        <transmission>Integral</transmission>
+        <numberOfDoors>5</numberOfDoors>
+        <numberOfSeats>5</numberOfSeats>
+        <numberOfAirbags>8</numberOfAirbags>
+        <vehicleClass>Classe 1</vehicleClass>
+        <particlesFilter>Sim</particlesFilter>
+        <numberOfRegisters>1</numberOfRegisters>
+        <reviewBook>Sim</reviewBook>
+        <secondKey>Sim</secondKey>
+        <alloyWheels>Sim</alloyWheels>
+        <upholstery>Estofos de Pele</upholstery>
+        <airConditioning>AC Automático</airConditioning>
+        <warranty>12 Mês(es)</warranty>
+        <nonSmoker>Sim</nonSmoker>
+        <cabrio>Tecto de Abrir Panorâmico</cabrio>
+        <extras>
+            <extra>Barras de Tejadilho</extra>
+            <extra>Farois de nevoeiro</extra>
+            <extra>Faróis Traseiros LED</extra>
+            <extra>Faróis direcionais</extra>
+            <extra>Faróis com Sensor Luminosidade</extra>
+            <extra>Faróis Reguláveis em altura</extra>
+            <extra>Faróis Bi-Xenon</extra>
+            <extra>Retrovisores com Regulação Eléctrica</extra>
+            <extra>Retrovisores Aquecidos</extra>
+            <extra>Retrovisores com Anti Encadeamento</extra>
+            <extra>Vidros Insonorizantes e Atérmicos</extra>
+            <extra>Vidros Escurecidos</extra>
+            <extra>Vidros Eléctricos diant. + trase.</extra>
+            <extra>Cinzento</extra>
+            <extra>Bancos Desportivos</extra>
+            <extra>Encostos de Cabeça Traseiros</extra>
+            <extra>Bancos Dianteiros c/ Regulação Electrica</extra>
+            <extra>Apoio de Braço</extra>
+            <extra>Bancos dianteiros aquecidos</extra>
+            <extra>Volante Multifunções</extra>
+            <extra>Volante em Pele</extra>
+            <extra>Volante Regulável em profundidade</extra>
+            <extra>Direcção assistida</extra>
+            <extra>ISOFIX</extra>
+            <extra>Sensores de Chuva</extra>
+            <extra>Câmara de Marcha atrás</extra>
+            <extra>Controle de pressão dos Pneus</extra>
+            <extra>ABS</extra>
+            <extra>Fecho Central c/ Comando</extra>
+            <extra>ESP Controle Electrónico de Estabilidade</extra>
+            <extra>Assistência à condução nocturna</extra>
+            <extra>Suspensão Pneumática</extra>
+            <extra>Fecho automático das Portas em andamento</extra>
+            <extra>Sensores de Estacionamento</extra>
+            <extra>Alarme</extra>
+            <extra>Imobilizador</extra>
+            <extra>EDS Bloqueio Electrónico do Diferencial</extra>
+            <extra>Sistema de Ajuda ao arranque em inclinação</extra>
+            <extra>Chave inteligente</extra>
+            <extra>Radio com CD</extra>
+            <extra>Kit Mãos Livres</extra>
+            <extra>Ecrã consola central</extra>
+            <extra>Computador de Bordo</extra>
+            <extra>Porta Bagagens automática</extra>
+            <extra>Sistema de navegação / GPS</extra>
+            <extra>Cruise Control</extra>
+            <extra>Entrada USB</extra>
+            <extra>Bluetooth</extra>
         </extras>
     </advert>
     <advert id="8000982748">

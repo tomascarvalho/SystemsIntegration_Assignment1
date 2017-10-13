@@ -18,48 +18,36 @@ import static java.awt.SystemColor.text;
 /**
  * Created by jorgearaujo on 12/10/2017.
  */
-public class HTMLConversion implements MessageListener{
+public class HTMLConversion {
 
     private ConnectionFactory cf;
     private Destination d;
     private Topic tpc;
 
 
-    public void HTMLConversion() throws NamingException {
+    public HTMLConversion() throws NamingException {
         this.cf = InitialContext.doLookup("jms/RemoteConnectionFactory");
-        this.d = InitialContext.doLookup("jms/queue/QueueExample");
         //lookup for the topic
         this.tpc = InitialContext.doLookup("jms/topic/TopicExample");
     }
 
-    public String receive() throws NamingException {
-
-        //doing all the lookups
-        this.HTMLConversion();
+    public String receive() {
 
         try (JMSContext cntxt = this.cf.createContext("joao", "br1o+sa*")) {
 
             //set the client ID
             cntxt.setClientID("htmlSummaryCreator");
-            //create topic consumer
-            JMSConsumer receiveRequestQueue = cntxt.createConsumer(d);
+
             //create durable consumer
-            JMSConsumer carsKeeperConsumer = cntxt.createDurableConsumer(this.tpc,"carsKeeper");
-            //set mesasge listener
-            receiveRequestQueue.setMessageListener(this);
+            JMSConsumer htmlSummaryConsumer = cntxt.createDurableConsumer(this.tpc,"htmlSummaryCreator");
             //receive the xml
-            return carsKeeperConsumer.receiveBody(String.class);
+            return htmlSummaryConsumer.receiveBody(String.class);
         }
     }
 
-    @Override
-    public void onMessage(Message msg) {
-        System.out.println("Received from request queue.");
-        //TODO Process request
-    }
 
     //function to tranform the xml fie into HTML
-    public File transformXML(String xmlFilename) throws TransformerException, FileNotFoundException {
+    public static File transformXML(String xmlFilename) throws TransformerException, FileNotFoundException {
 
         //XSL template to do the conversion
         Source xslFile  =  new StreamSource("stylesheet.xsl");
@@ -82,8 +70,8 @@ public class HTMLConversion implements MessageListener{
         while(true) {
 
             //receive the XML String
-            HTMLConversion Receiver = new HTMLConversion();
-            String xmlString = Receiver.receive();
+            HTMLConversion receiver = new HTMLConversion();
+            String xmlString = receiver.receive();
             //write it to a file
             File file = new File ("file.xml");
             BufferedWriter out = new BufferedWriter(new FileWriter(file));
@@ -91,7 +79,7 @@ public class HTMLConversion implements MessageListener{
             out.close();
 
             //transfor to html
-            File f = Receiver.transformXML("file.xml");
+            File f = transformXML("file.xml");
             //open html with browser
             Desktop.getDesktop().browse(f.toURI());
 
