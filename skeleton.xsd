@@ -27,7 +27,7 @@
               <xs:element type="xs:string" name="condition" maxOccurs="1" minOccurs="0"/>
               <xs:element type="xs:string" name="fuel" maxOccurs="1" minOccurs="0"/>
               <xs:element type="xs:string" name="advertiser" maxOccurs="1" minOccurs="0"/>
-              <xs:element name="mileage" maxOccurs="1" minOccurs="1">
+              <xs:element name="mileage" maxOccurs="1" minOccurs="0">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:int">

@@ -3,7 +3,7 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>Adverts Details</h1>
+                <h1>HTML Summary</h1>
                 <table border="1">
                     <tr>
                         <th>URL</th>
@@ -56,8 +56,6 @@
                         <th>Advertiser</th>
                         <th>Takeback</th>
                         <th>Financing</th>
-                        <th>Extras</th>
-
                     </tr>
                     <xsl:for-each select="advertisements/advert">
                         <xsl:sort select="price" order="ascending" data-type="number"/>

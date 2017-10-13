@@ -11,11 +11,13 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.xml.XMLConstants;
 import javax.xml.transform.Source;
+import javax.xml.transform.TransformerException;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.StringReader;
 
@@ -50,7 +52,7 @@ public class Receiver implements MessageListener{
         }
     }
 
-        public static void main(String[] args) throws NamingException {
+        public static void main(String[] args) throws NamingException, TransformerException, FileNotFoundException {
             while (true) {
                 Receiver receiver = new Receiver();
                 String xmlString = receiver.receive();
