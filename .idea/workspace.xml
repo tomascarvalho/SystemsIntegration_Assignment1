@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6854f6f-2a40-4319-a702-5ca7c5ca13fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheet.xsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IS_Assignment1.iws" />
@@ -886,7 +885,7 @@
       <option name="presentableId" value="Default" />
       <updated>1507545691182</updated>
       <workItem from="1507804521977" duration="1169000" />
-      <workItem from="1507824040432" duration="10278000" />
+      <workItem from="1507824040432" duration="10283000" />
     </task>
     <task id="LOCAL-00001" summary="ADD sender, receiver and jndi properties">
       <created>1507805186107</created>
@@ -909,11 +908,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507846502859</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="html conversion done">
+      <created>1507906346338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507906346338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11447000" />
+    <option name="totallyTimeSpent" value="11452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
