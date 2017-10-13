@@ -8,7 +8,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.xml.sax.SAXException;
 
 import java.io.BufferedReader;
 import java.util.ArrayList;
@@ -22,7 +21,6 @@ import javax.naming.NamingException;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-import javax.xml.parsers.ParserConfigurationException;
 
 
 public class Crawler {
@@ -300,8 +298,8 @@ public class Crawler {
 
     public static void sendString(String xmlString) {
         try {
-            Sender sender = new Sender();
-            sender.send(xmlString);
+            TopicSender sender = new TopicSender();
+            sender.sendToTopic(xmlString);
             System.out.println("Message sent");
             File file = new File("adverts.xml");
             if (file.exists() && !file.isDirectory()) {

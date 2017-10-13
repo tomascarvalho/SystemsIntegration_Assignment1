@@ -3,13 +3,16 @@ package Jorge_Tomás;
 /**
  * Created by jorgearaujo on 26/09/2017.
  */
-import com.sun.xml.internal.bind.v2.TODO;
+import org.w3c.dom.Document;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import javax.jms.*;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.xml.XMLConstants;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
@@ -18,20 +21,23 @@ import javax.xml.validation.Validator;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+
 public class Receiver implements MessageListener{
     private ConnectionFactory cf;
     private Destination d;
     private Topic tpc;
+    public static List<Advertisements.Advert> adverts;
 
     public Receiver() throws NamingException {
         this.cf = InitialContext.doLookup("jms/RemoteConnectionFactory");
         this.d = InitialContext.doLookup("jms/queue/QueueExample");
-        //lookup for the topic
         this.tpc = InitialContext.doLookup("jms/topic/TopicExample");
     }
 
@@ -50,24 +56,132 @@ public class Receiver implements MessageListener{
         }
     }
 
-        public static void main(String[] args) throws NamingException {
-            while (true) {
-                Receiver receiver = new Receiver();
-                String xmlString = receiver.receive();
-                System.out.println(xmlString);
-                Advertisements advertisements = new Advertisements();
-                if (isValidXML(xmlString, "skeleton.xsd")) {
-                    advertisements = unmarshalXML(xmlString);
-                }
+    public void unmarshalXML(String xmlString) {
+        if (adverts == null)
+            adverts = new ArrayList<>();
+        try {
+            JAXBContext jaxbContext = JAXBContext.newInstance(Advertisements.class);
+            Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
+            StringReader reader = new StringReader(xmlString);
+            synchronized (adverts) {
+                adverts = ((Advertisements) unmarshaller.unmarshal(reader)).getAdvert();
             }
-    }
 
+        } catch(JAXBException je) {
+            System.err.println(je);
+        }
+    }
 
     @Override
-    public void onMessage(Message msg) {
-        System.out.println("Received from request queue.");
-        //TODO Process request
+    public void onMessage(Message message) {
+        try {
+            JMSContext cntxt = this.cf.createContext("joao", "br1o+sa*");
+            JMSProducer replyToTemporaryQueue = cntxt.createProducer();
+            ArrayList<Advertisements.Advert> queryResult = new ArrayList<>();
+            String finalResult = "";
+            if (message instanceof TextMessage) {
+                List<Advertisements.Advert> adverts;
+                TextMessage txtMsg = (TextMessage) message;
+                String messageText = txtMsg.getText();
+                System.out.println(messageText);
+                String [] query = messageText.split(" ");
+                queryResult = queryAdvert(query);
+            }
+
+            if (!queryResult.isEmpty()) {
+                for (Advertisements.Advert result : queryResult) {
+                    finalResult = finalResult + result.toString() + "\n";
+                }
+            } else {
+                finalResult = "No results";
+            }
+            replyToTemporaryQueue.send(message.getJMSReplyTo(), finalResult);
+
+        } catch (JMSException e) {
+            //Handle the exception appropriately
+        }
     }
+
+    public ArrayList<Advertisements.Advert> queryAdvert(String [] query) {
+        ArrayList<Advertisements.Advert> queryResult = new ArrayList();
+        List<Advertisements.Advert> adverts_aux;
+
+        synchronized (adverts) {
+            adverts_aux = adverts;
+        }
+        for (Advertisements.Advert advert : adverts_aux) {
+            if (query[0].equals("brand")) {
+                if (advert.getBrand() != null) {
+                    String brand = advert.getBrand();
+                    brand = brand.toLowerCase();
+                    if (query[1].equals("=") || query[1].equals("==")) {
+                        if (brand.equals(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    }
+                }
+            } else if (query[0].equals("model")) {
+                if (advert.getModel() != null) {
+                    String model = advert.getModel();
+                    model = model.toLowerCase();
+                    if (query[1].equals("=") || query[1].equals("==")) {
+                        if (model.equals(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    }
+                }
+            } else if (query[0].equals("mileage")) {
+                if (advert.getMileage() != null) {
+                    Advertisements.Advert.Mileage mileage = advert.getMileage();
+                    int mileageValue = mileage.getValue();
+                    if (query[1].equals("=") || query[1].equals("==")) {
+                        if (mileageValue == Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    } else if (query[1].equals(">")) {
+                        if (mileageValue > Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    } else if (query[1].equals("<")) {
+                        if (mileageValue < Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    }
+                }
+            } else if (query[0].equals("price")) {
+                if (advert.getPrice() != null) {
+                    Advertisements.Advert.Price price = advert.getPrice();
+                    int priceValue = price.getValue();
+                    if (query[1].equals("=") || query[1].equals("==")) {
+                        if (priceValue == Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    } else if (query[1].equals(">")) {
+                        if (priceValue > Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    } else if (query[1].equals("<")) {
+                        if (priceValue < Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    }
+                }
+            } else if (query[0].equals("color")) {
+                if (advert.getColor() != null) {
+                    String color = advert.getColor();
+                    color = color.toLowerCase();
+                    if (query[1].equals("=") || query[1].equals("==")) {
+                        if (color.equals(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    }
+                }
+            }
+        }
+
+        return queryResult;
+    }
+
 
     public static boolean isValidXML(String xml, String xsd)
     {
@@ -81,24 +195,26 @@ public class Receiver implements MessageListener{
             System.out.println("XML is valid");
             return true;
         } catch (SAXException e) {
-            System.out.println("XML is NOT valid reason:" + e);
+            System.out.println("XML is NOT valid because:" + e);
         } catch (IOException e) {
             System.err.println(e);
         }
         return false;
     }
 
-    public static Advertisements unmarshalXML(String xmlString) {
-        Advertisements advertisements = new Advertisements();
-        try {
-            JAXBContext jaxbContext = JAXBContext.newInstance(Advertisements.class);
-            Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-            StringReader reader = new StringReader(xmlString);
-            advertisements = (Advertisements) unmarshaller.unmarshal(reader);
-        } catch(JAXBException je) {
-            System.err.println(je);
+    public static void main(String[] args) throws NamingException {
+        while (true) {
+            Receiver receiver = new Receiver();
+            String xmlString = receiver.receive();
+            try
+            {
+                if (isValidXML(xmlString, "skeleton.xsd")) {
+                    receiver.unmarshalXML(xmlString);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-        return advertisements;
     }
 }
 

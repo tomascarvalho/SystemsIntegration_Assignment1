@@ -221,6 +221,7 @@ public class Advertisements {
     }
 
 
+
     /**
      * <p>Java class for anonymous complex type.
      * 
@@ -492,6 +493,22 @@ public class Advertisements {
         protected Advertisements.Advert.Extras extras;
         @XmlAttribute(name = "id")
         protected Long id;
+
+        @Override
+        public String toString() {
+            int mileageValue;
+            String mileageUnit;
+            if (this.getMileage() == null){
+                mileageValue = 0;
+                mileageUnit = "n/a";
+            } else {
+                mileageValue = this.getMileage().getValue();
+                mileageUnit = this.getMileage().getUnits();
+            }
+
+            return "Brand: " + this.getBrand() + " Model: " + this.getModel() + " Price: " + this.getPrice().getValue()
+                    + "" +this.getPrice().getUnits() + " Mileage: "+ mileageValue + ""+mileageUnit + " Color: " + this.getColor();
+        }
 
         /**
          * Gets the value of the price property.
