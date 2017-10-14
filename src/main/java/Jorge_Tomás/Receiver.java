@@ -178,6 +178,24 @@ public class Receiver implements MessageListener{
                         }
                     }
                 }
+            } else if (query[0].equals("horsepower")) {
+                if (advert.getHorsePower() != null) {
+                    Advertisements.Advert.HorsePower horsePower = advert.getHorsePower();
+                    int horsePowerValue = horsePower.getValue();
+                    if (query[1].equals("=") || query[1].equals("==")) {
+                        if (horsePowerValue == Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    } else if (query[1].equals(">")) {
+                        if (horsePowerValue > Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    } else if (query[1].equals("<")) {
+                        if (horsePowerValue < Integer.parseInt(query[2])) {
+                            queryResult.add(advert);
+                        }
+                    }
+                }
             }
         }
 

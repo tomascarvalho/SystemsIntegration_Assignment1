@@ -146,7 +146,7 @@ public class Crawler {
                     } else if (detailKey.equals("Nº de portas")) {
                         new_advert.setNumberOfDoors(Integer.parseInt(detailValue));
                     } else if (detailKey.equals("Lotação")) {
-                        new_advert.setNumberOfSeats(Integer.parseInt(detailValue));
+                        new_advert.setNumberOfSeats(detailValue);
                     } else if (detailKey.equals("Classe do veículo")) {
                         new_advert.setVehicleClass(detailValue);
                     } else if (detailKey.equals("Tracção")) {
