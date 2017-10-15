@@ -5,6 +5,7 @@
         <xs:element name="advert" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
+              <xs:element type="xs:string" name="imageUrl" maxOccurs="1" minOccurs="1"/>
               <xs:element name="price" maxOccurs="1" minOccurs="1">
                 <xs:complexType>
                   <xs:simpleContent>

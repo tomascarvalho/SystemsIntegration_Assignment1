@@ -89,9 +89,11 @@ public class Crawler {
                 Elements advertExtras = document.getElementsByClass("offer-features__item");
                 String advertID = document.getElementsByClass("offer-meta__value").last().text();
                 String advertPrice = document.getElementsByClass("offer-price__number").text();
+                String imageUrl = document.getElementsByClass("offer-photos-thumbs__link").first().attr("abs:data-thumb");
                 Advertisements.Advert.Price price = new Advertisements.Advert.Price();
                 price.setValue(Integer.parseInt(advertPrice.replaceAll("[^\\d]", "")));
                 price.setUnits("€");
+                new_advert.setImageUrl(imageUrl);
                 new_advert.setPrice(price);
                 new_advert.setId(Long.parseLong(advertID));
                 new_advert.setUrl(advert);

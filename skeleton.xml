@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <advertisements>
   <advert id="8001644620">
+    <imageUrl>https://carspt-images.akamaized.net/images_carspt/52959800_1_1080x720_rev001.jpg</imageUrl>
     <price units="EUR">31500</price>
     <fixedValue>Sim</fixedValue>
     <deductibleVAT>Sim</deductibleVAT>
@@ -59,6 +60,7 @@
     </extras>
   </advert>
   <advert id="8001644620">
+    <imageUrl>https://carspt-images.akamaized.net/images_carspt/52959800_1_1080x720_rev001.jpg</imageUrl>
     <price units="EUR">31500</price>
     <fixedValue>Sim</fixedValue>
     <deductibleVAT>Sim</deductibleVAT>
@@ -117,6 +119,7 @@
     </extras>
   </advert>
   <advert id="8001644620">
+    <imageUrl>https://carspt-images.akamaized.net/images_carspt/52959800_1_1080x720_rev001.jpg</imageUrl>
     <price units="EUR">31500</price>
     <fixedValue>Sim</fixedValue>
     <deductibleVAT>Sim</deductibleVAT>

@@ -2,66 +2,79 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <html>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
             <body>
                 <h1>HTML Summary</h1>
-                <table border="1">
-                    <tr>
-                        <th>URL</th>
-                        <th>Brand</th>
-                        <th>Model</th>
-                        <th>Color</th>
-                        <th>Metallic</th>
-                        <th>Price</th>
-                        <th>Fixed value?</th>
-                        <th>Deductible VAT</th>
-                        <th>Plate Number</th>
-                        <th>Doors</th>
-                        <th>Seats</th>
-                        <th>Airbags</th>
-                        <th>Alloy Wheels</th>
-                        <th>Alloy Wheels Size</th>
-                        <th>Series</th>
-                        <th>Version</th>
-                        <th>Year</th>
-                        <th>Month</th>
-                        <th>Segment</th>
-                        <th>HP</th>
-                        <th>Traction</th>
-                        <th>Transmission</th>
-                        <th>Gears</th>
-                        <th>Fuel</th>
-                        <th>Displacement</th>
-                        <th>Consumption</th>
-                        <th>CO2 Emissions</th>
-                        <th>Particles Filter</th>
-                        <th>IUC</th>
-                        <th>Inspection</th>
-                        <th>Number of Registries</th>
-                        <th>Origin</th>
-                        <th>Condition</th>
-                        <th>Review Book</th>
-                        <th>Second Key</th>
-                        <th>Milleage</th>
-                        <th>Autonomy</th>
-                        <th>Class</th>
-                        <th>Upholstery</th>
-                        <th>AC</th>
-                        <th>Rooftop</th>
-                        <th>Eletric Rooftop</th>
-                        <th>Non Smoker</th>
-                        <th>Cabrio</th>
-                        <th>Warranty</th>
-                        <th>VIN</th>
-                        <th>Mecanical Warranty</th>
-                        <th>Advertiser</th>
-                        <th>Takeback</th>
-                        <th>Financing</th>
-                    </tr>
+                <table border="1" class="table table-striped table-hover">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Image</th>
+                            <th>Brand</th>
+                            <th>Model</th>
+                            <th>Series</th>
+                            <th>Version</th>
+                            <th>Segment</th>
+                            <th>Fuel</th>
+                            <th>Color</th>
+                            <th>Year</th>
+                            <th>Month</th>
+                            <th>Metallic</th>
+                            <th>Price</th>
+                            <th>Fixed value?</th>
+                            <th>Deductible VAT</th>
+                            <th>Plate Number</th>
+                            <th>Doors</th>
+                            <th>Seats</th>
+                            <th>Airbags</th>
+                            <th>Alloy Wheels</th>
+                            <th>Alloy Wheels Size</th>
+                            <th>HP</th>
+                            <th>Traction</th>
+                            <th>Transmission</th>
+                            <th>Gears</th>
+                            <th>Displacement</th>
+                            <th>Consumption</th>
+                            <th>CO2 Emissions</th>
+                            <th>Particles Filter</th>
+                            <th>IUC</th>
+                            <th>Inspection</th>
+                            <th>Number of Registries</th>
+                            <th>Origin</th>
+                            <th>Condition</th>
+                            <th>Review Book</th>
+                            <th>Second Key</th>
+                            <th>Milleage</th>
+                            <th>Autonomy</th>
+                            <th>Class</th>
+                            <th>Upholstery</th>
+                            <th>AC</th>
+                            <th>Rooftop</th>
+                            <th>Eletric Rooftop</th>
+                            <th>Non Smoker</th>
+                            <th>Cabrio</th>
+                            <th>Warranty</th>
+                            <th>VIN</th>
+                            <th>Mecanical Warranty</th>
+                            <th>Advertiser</th>
+                            <th>Takeback</th>
+                            <th>Financing</th>
+                      </tr>
+                    </thead>
                     <xsl:for-each select="advertisements/advert">
                         <xsl:sort select="price" order="ascending" data-type="number"/>
                         <tr>
                             <td>
-                                <a href="{url}"><xsl:value-of select="url" /></a>
+                                <a target="_blank">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="url"/>
+                                    </xsl:attribute>
+                                    <img>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="imageUrl"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </a>
                             </td>
                             <td>
                                 <xsl:value-of select="brand" />
@@ -70,10 +83,28 @@
                                 <xsl:value-of select="model" />
                             </td>
                             <td>
+                                <xsl:value-of select="series" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="version" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="segment" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="fuel" />
+                            </td>
+                            <td>
                                 <xsl:value-of select="color" />
                             </td>
                             <td>
                                 <xsl:value-of select="metallic" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="year" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="month" />
                             </td>
                             <td>
                                 <xsl:value-of select="price" />
@@ -106,21 +137,6 @@
                                 <xsl:value-of select="alloyWheelsSize" />
                             </td>
                             <td>
-                                <xsl:value-of select="series" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="version" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="year" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="month" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="segment" />
-                            </td>
-                            <td>
                                 <xsl:value-of select="horsePower" />
                                 <xsl:value-of select="horsePower/@units" />
                             </td>
@@ -132,9 +148,6 @@
                             </td>
                             <td>
                                 <xsl:value-of select="numberOfGears" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="fuel" />
                             </td>
                             <td>
                                 <xsl:value-of select="displacement" />
