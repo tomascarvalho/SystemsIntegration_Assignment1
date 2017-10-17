@@ -15,6 +15,7 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
+import java.awt.*;
 import java.io.*;
 
 /**
@@ -106,7 +107,8 @@ public class HTMLConverter {
                 //transfor to html
                 File f = transformXML("file.xml");
                 //open html with browser
-                //Desktop.getDesktop().browse(f.toURI());
+                System.out.println("Trying to open your browser. If this crashes, you can still open the hmtl manually");
+                Desktop.getDesktop().browse(f.toURI());
 
             }
         }

@@ -17,11 +17,11 @@ public class Requester {
         this.cf = InitialContext.doLookup("jms/RemoteConnectionFactory");
     }
 
-    public void send(String request) {
+    public void send(String request, String clientID) {
 
-        try (JMSContext cntxt = this.cf.createContext("queue", "queue")) {
+        try (JMSContext cntxt = this.cf.createContext("joao", "br1o+sa*")) {
             //set the client ID
-            cntxt.setClientID("carsRequester");
+            cntxt.setClientID(clientID);
             //create message producer
             JMSProducer sendToRequestQueue = cntxt.createProducer();
             //initialize textMessage
@@ -49,17 +49,20 @@ public class Requester {
     public static void main(String[] args) {
         try {
             Requester requester = new Requester();
+            System.out.println("Insert your ID: ");
+            Scanner sc = new Scanner(System.in);
+            String clientID = sc.nextLine();
             while (true) {
                 //build the request
                 System.out.println("Insert query or insert 'quit' to quit: ");
                 System.out.println("Ex: brand = bmw or price < 15000");
-                Scanner sc = new Scanner(System.in);
+                sc = new Scanner(System.in);
                 String input = sc.nextLine();
 
                 if (!(input.indexOf("quit") < 0)) {
                     break;
                 } else {
-                    requester.send(input.toLowerCase());
+                    requester.send(input.toLowerCase(), clientID);
                 }
             }
         } catch (NamingException e) {
